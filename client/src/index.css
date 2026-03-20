@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #fff;
+}
+
+.app-container {
+  min-height: 100vh;
+  padding: 24px;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.subtitle {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+button {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}
+
+.save-btn {
+  background: #10b981;
+}
+
+.flow-wrapper {
+  width: 100%;
+  height: 500px;
+  background: #ffffff;
+  border-radius: 16px;
+  overflow: hidden;
+  margin-bottom: 30px;
+  border: 2px solid #334155;
+}
+
+.custom-node {
+  min-width: 260px;
+  max-width: 300px;
+  padding: 16px;
+  border-radius: 14px;
+  background: #ffffff;
+  color: #111827;
+  border: 2px solid #d1d5db;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.custom-node h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.input-node textarea {
+  width: 100%;
+  resize: none;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #cbd5e1;
+  outline: none;
+  font-size: 14px;
+}
+
+.result-box {
+  min-height: 120px;
+  max-height: 220px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  padding: 10px;
+  border-radius: 10px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  font-size: 14px;
+}
+
+.history-section {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.history-section h2 {
+  margin-bottom: 16px;
+}
+
+.history-card {
+  background: #1e293b;
+  border: 1px solid #334155;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.history-card p {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.history-card small {
+  color: #94a3b8;
+}
