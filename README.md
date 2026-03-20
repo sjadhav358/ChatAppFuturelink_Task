@@ -40,6 +40,7 @@ npm run dev
 ## Notes
 - Use MongoDB local 
 PORT=5000
+//create this database 
 MONGO_URI="mongodb://127.0.0.1:27017/admin"
 OPENROUTER_API_KEY=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
 
